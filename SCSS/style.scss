@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: #00bdbd;
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 1500px;
+  min-width: 374px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header{
+  background: url(../img/intro.jpg) no-repeat;
+  max-height: 1000px;
+  width: 100%;
+}
+
+.logo{
+  padding: 10px;
+  margin: 25px;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+}
+
+.menu{
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px;
+  }
+  &__link{
+    text-decoration: none;
+    color: #262626;
+    cursor: pointer;
+    margin: 15px;
+  }
+}
+
+.fresh{
+  &__content{
+    padding: 250px 25px;
+    max-width: 500px;
+
+  }
+  &__title{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  &__text{
+    text-align: justify;
+  }
+}
+
+.button{
+  background-color: #ff6033;
+  padding: 20px 20px;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+  &__link{
+    text-decoration: none;
+    color: #ffff;
+  }
+}
+
+.section-about{
+  display: flex;
+  align-items: center;
+  &__title{
+    font-size: 90px;
+    font-weight: 700;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__text{
+    color: #ffff;
+    line-height: 26px;
+    padding: 5px;
+    margin: 5px;
+  }
+  &__pic{
+    padding: 60px 0;
+  }
+}
